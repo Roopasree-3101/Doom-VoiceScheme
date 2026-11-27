@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VoiceScheme - Multilingual Voice Welfare Assistant for India</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        bharat: {
+                            saffron: '#FF671F',
+                            white: '#FFFFFF',
+                            green: '#046A38',
+                            navy: '#06038D',
+                            dark: '#0f172a',
+                            card: '#1e293b'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Tiro+Devanagari+Hindi&family=Tiro+Telugu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col antialiased selection:bg-amber-500 selection:text-slate-950">
+
+    <!-- TOP HEADER -->
+    <header class="sticky top-0 z-50 bg-slate-900/90 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-5xl mx-auto px-4 h-16 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-2xl bg-gradient-to-tr from-amber-500 via-orange-500 to-emerald-600 flex items-center justify-center text-white text-lg font-black shadow-lg shadow-orange-500/20">
+                    <i class="fa-solid fa-microphone-lines"></i>
+                </div>
+                <div>
+                    <h1 class="font-extrabold text-base sm:text-lg text-white leading-tight flex items-center gap-2">
+                        <span>VoiceScheme</span>
+                        <span class="text-[10px] font-bold uppercase bg-amber-500/20 text-amber-400 border border-amber-500/30 px-2 py-0.5 rounded-full">Bharat Voice</span>
+                    </h1>
+                    <p class="text-[11px] text-slate-400" id="header-subtitle">Civic Welfare &amp; Scheme Discovery Assistant</p>
+                </div>
+            </div>
+
+            <!-- Language Quick Selector -->
+            <div class="flex items-center gap-1.5 bg-slate-800/80 p-1 rounded-xl border border-slate-700/60 text-xs">
+                <button class="lang-btn active px-2.5 py-1 rounded-lg font-bold transition text-slate-300" data-lang="en">EN</button>
+                <button class="lang-btn px-2.5 py-1 rounded-lg font-bold transition text-slate-300" data-lang="hi">हिंदी</button>
+                <button class="lang-btn px-2.5 py-1 rounded-lg font-bold transition text-slate-300" data-lang="te">తెలుగు</button>
+                <button class="lang-btn px-2.5 py-1 rounded-lg font-bold transition text-slate-300" data-lang="ta">தமிழ்</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN INTERACTIVE CONTAINER -->
+    <main class="flex-1 max-w-4xl w-full mx-auto px-4 py-8 flex flex-col justify-between">
+
+        <!-- WELCOME BANNER & INSTRUCTIONS -->
+        <section class="text-center mb-8">
+            <div class="inline-flex items-center gap-2 bg-emerald-950/60 border border-emerald-500/30 text-emerald-400 px-3.5 py-1.5 rounded-full text-xs font-semibold mb-4 shadow-sm">
+                <i class="fa-solid fa-shield-halved"></i>
+                <span id="zero-keys-badge">Zero Secret Keys Needed &bull; Sourced from myscheme.gov.in</span>
+            </div>
+            <h2 class="text-2xl sm:text-3xl md:text-4xl font-black text-white tracking-tight mb-2" id="hero-title">
+                Speak your needs. Discover your welfare schemes.
+            </h2>
+            <p class="text-slate-400 text-sm max-w-xl mx-auto" id="hero-subtitle">
+                No typing or complex forms. Just tap the microphone and tell us your work, family, or situation in your mother tongue.
+            </p>
+        </section>
+
+        <!-- VOICE INTERACTION CORE HUB -->
+        <section class="bg-gradient-to-b from-slate-900 to-slate-900/60 border border-slate-800 rounded-3xl p-6 sm:p-10 mb-8 shadow-2xl relative overflow-hidden text-center">
+            
+            <!-- Glow Effect -->
+            <div class="absolute -top-24 left-1/2 -translate-x-1/2 w-64 h-64 bg-amber-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+            <!-- Pulsating Microphone Button -->
+            <div class="flex flex-col items-center justify-center mb-6">
+                <button id="mic-btn" class="relative group w-28 h-28 sm:w-32 sm:h-32 rounded-full bg-gradient-to-tr from-amber-500 via-orange-500 to-emerald-600 flex items-center justify-center text-white text-4xl sm:text-5xl shadow-2xl shadow-orange-500/30 hover:scale-105 active:scale-95 transition-all duration-300">
+                    <span id="mic-pulse" class="absolute inset-0 rounded-full bg-orange-400 animate-ping opacity-0"></span>
+                    <i class="fa-solid fa-microphone" id="mic-icon"></i>
+                </button>
+                <p id="mic-status" class="mt-4 text-xs sm:text-sm font-semibold text-slate-300 flex items-center gap-2">
+                    <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+                    <span id="mic-status-text">Tap microphone to start speaking</span>
+                </p>
+            </div>
+
+            <!-- Live Speech Visualizer / Transcript Box -->
+            <div id="transcript-container" class="bg-slate-950/80 border border-slate-800 rounded-2xl p-4 sm:p-5 max-w-xl mx-auto text-left shadow-inner">
+                <div class="flex items-center justify-between text-[11px] font-bold text-slate-400 mb-2 border-b border-slate-800 pb-2">
+                    <span class="flex items-center gap-1.5">
+                        <i class="fa-solid fa-comment-dots text-amber-400"></i>
+                        <span id="transcript-label">Live Voice Transcript</span>
+                    </span>
+                    <span id="detected-language-badge" class="bg-slate-800 text-slate-300 px-2 py-0.5 rounded text-[10px]">Lang: Auto</span>
+                </div>
+                <p id="transcript-text" class="text-sm sm:text-base text-slate-200 min-h-[48px] italic leading-relaxed">
+                    "Tap the microphone above or click one of the sample citizen scenarios below..."
+                </p>
+            </div>
+
+            <!-- Audio Response Audio Element -->
+            <audio id="audio-player" class="hidden" controls></audio>
+
+            <!-- Spoken Voice Assistant Reply Box -->
+            <div id="voice-reply-box" class="hidden mt-4 p-4 rounded-2xl bg-amber-500/10 border border-amber-500/30 max-w-xl mx-auto text-left">
+                <div class="flex items-center justify-between mb-1.5">
+                    <span class="text-xs font-bold text-amber-400 flex items-center gap-1.5" id="voice-speaks-label">
+                        <i class="fa-solid fa-volume-high"></i> VoiceScheme Speaks:
+                    </span>
+                    <button id="replay-voice-btn" class="text-[11px] font-bold text-amber-300 bg-amber-500/20 hover:bg-amber-500/30 px-2.5 py-1 rounded-lg transition flex items-center gap-1">
+                        <i class="fa-solid fa-rotate-right"></i> Replay Audio
+                    </button>
+                </div>
+                <p id="voice-reply-text" class="text-xs sm:text-sm text-slate-200 leading-relaxed"></p>
+            </div>
+
+            <!-- ONE-CLICK SAMPLE PROMPTS (For Quick Evaluation & Demo) -->
+            <div class="mt-8 pt-6 border-t border-slate-800/80">
+                <p class="text-xs text-slate-400 font-semibold mb-3" id="sample-prompt-label">Or click a real citizen scenario to test instantly:</p>
+                <div class="flex flex-wrap items-center justify-center gap-2 text-xs">
+                    <button class="sample-chip bg-slate-800/80 hover:bg-slate-700 text-slate-300 hover:text-white px-3 py-1.5 rounded-xl border border-slate-700 transition" data-query="I am a small farmer with 2 acres land in Karnataka, my paddy crop was damaged by rains. What government schemes can help me?" data-lang="en">
+                        🌾 Marginal Farmer (Drought/Crop Loss)
+                    </button>
+                    <button class="sample-chip bg-slate-800/80 hover:bg-slate-700 text-slate-300 hover:text-white px-3 py-1.5 rounded-xl border border-slate-700 transition" data-query="मेरे पति का देहांत हो गया है, मेरे दो छोटे बच्चे हैं और घर कच्चा है। मुझे कौन सी सरकारी पेंशन और आवास योजना मिलेगी?" data-lang="hi">
+                        👵 Vidhwa Pension &amp; Awas (Hindi)
+                    </button>
+                    <button class="sample-chip bg-slate-800/80 hover:bg-slate-700 text-slate-300 hover:text-white px-3 py-1.5 rounded-xl border border-slate-700 transition" data-query="నేను గ్రామీణ ప్రాంతంలో వడ్రంగి పని చేస్తాను. నాకు ఉపకరణాలు మరియు చిన్న వ్యాపార రుణం కోసం పథకాలు కావాలి." data-lang="te">
+                        🔨 Vishwakarma Artisan (Telugu)
+                    </button>
+                    <button class="sample-chip bg-slate-800/80 hover:bg-slate-700 text-slate-300 hover:text-white px-3 py-1.5 rounded-xl border border-slate-700 transition" data-query="I am a college student from a low income BPL family. What scholarships and education grants can I apply for?" data-lang="en">
+                        🎓 Student Scholarships (BPL)
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- DYNAMIC SCHEME RESULTS SECTION -->
+        <section id="results-section" class="mb-12">
+            <div class="flex items-center justify-between mb-6">
+                <div>
+                    <h3 class="text-lg sm:text-xl font-bold text-white flex items-center gap-2">
+                        <i class="fa-solid fa-id-card-clip text-emerald-400"></i>
+                        <span id="results-heading">Matched Government Welfare Schemes</span>
+                    </h3>
+                    <p class="text-xs text-slate-400" id="results-subtitle">Verified against National and State portals</p>
+                </div>
+                <span id="results-count" class="text-xs font-bold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 px-3 py-1 rounded-full">
+                    Top Verified Schemes
+                </span>
+            </div>
+
+            <!-- Cards Container -->
+            <div id="schemes-grid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Fallback / Initial Scheme Cards rendered dynamically via app.js -->
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-900 border-t border-slate-800 py-6 text-center text-xs text-slate-400">
+        <div class="max-w-4xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-3">
+            <p id="footer-line1"><strong>VoiceScheme</strong> &bull; Built for Bharat Hackathon 2026</p>
+            <p class="text-slate-500" id="footer-line2">Theme: Public Infrastructure &amp; Civic Welfare &bull; Zero API Keys Required</p>
+        </div>
+    </footer>
+
+    <!-- App Logic Scripts -->
+    <script src="/static/js/app.js"></script>
+</body>
+</html>
