@@ -1,0 +1,647 @@
+[
+  {
+    "id": "pm_kisan",
+    "name": "PM Kisan Samman Nidhi Yojana",
+    "name_hi": "पीएम किसान सम्मान निधि योजना",
+    "name_te": "పీఎం కిసాన్ సమ్మాన్ నిధి పథకం",
+    "name_ta": "பிஎம் கிசான் திட்டம்",
+    "category": "Agriculture",
+    "category_hi": "कृषि एवं किसान कल्याण",
+    "category_te": "వ్యవసాయం & రైతు సంక్షేమం",
+    "category_ta": "வேளாண்மை",
+    "target_group": ["farmer", "kisan", "farming", "agriculture", "land", "crop", "crops"],
+    "benefit": "₹6,000 per year (in 3 equal installments of ₹2,000 directly into bank account).",
+    "benefit_hi": "प्रति वर्ष ₹6,000 की आर्थिक सहायता (₹2,000 की 3 समान किस्तों में सीधे बैंक खाते में)।",
+    "benefit_te": "సంవత్సరానికి ₹6,000 ఆర్థిక సాయం (ప్రతి 4 నెలలకు ₹2,000 చొప్పున 3 విడతల్లో నేరుగా బ్యాంకు ఖాతాలో).",
+    "benefit_ta": "ஆண்டுக்கு ₹6,000 நேரடி வங்கி பண உதவி.",
+    "benefit_amount": 6000,
+    "eligibility": [
+      "Small and marginal farmers owning cultivable land up to 2 hectares (5 acres).",
+      "Land ownership Record of Rights (RoR / Patta) must be in applicant's name.",
+      "Must have an active bank account linked with Aadhaar."
+    ],
+    "eligibility_hi": [
+      "2 हेक्टेयर (5 एकड़) तक कृषि योग्य भूमि वाले छोटे और सीमांत किसान।",
+      "जमीन के कागजात (खतौनी / पट्टा) आवेदक के नाम पर होने चाहिए।",
+      "आधार कार्ड से लिंक बैंक खाता होना अनिवार्य है।"
+    ],
+    "eligibility_te": [
+      "5 ఎకరాల వరకు సాగుభూమి ఉన్న చిన్న మరియు సన్నకారు రైతులు అర్హులు.",
+      "భూమి పట్టాదారు పాస్ పుస్తకం (పహణీ / 1B) రైతు పేరుపై ఉండాలి.",
+      "ఆధార్ కార్డుతో లింక్ అయిన బ్యాంకు ఖాతా తప్పనిసరి."
+    ],
+    "required_documents": [
+      "Aadhaar Card",
+      "Land Ownership Passbook / Patta",
+      "Aadhaar-Linked Bank Passbook",
+      "Mobile Number"
+    ],
+    "required_documents_hi": [
+      "आधार कार्ड",
+      "जमीन की खतौनी / पट्टा",
+      "आधार लिंक बैंक पासबुक",
+      "मोबाइल नंबर"
+    ],
+    "required_documents_te": [
+      "ఆధార్ కార్డు",
+      "పట్టాదారు పాస్ పుస్తకం",
+      "ఆధార్ లింక్ బ్యాంక్ పాస్‌బుక్",
+      "మొబైల్ నంబర్"
+    ],
+    "how_to_apply": "Visit your local Common Service Centre (CSC) or Gram Panchayat office with land documents, or register on pmkisan.gov.in.",
+    "how_to_apply_hi": "अपने नजदीकी सीएससी सेंटर या ग्राम पंचायत जाएं या pmkisan.gov.in पर ऑनलाइन आवेदन करें।",
+    "how_to_apply_te": "మీ గ్రామ సచివాలయం లేదా రైతు సేవా కేంద్రం (CSC) లో ఆధార్ మరియు పట్టాబుక్ తో దరఖాస్తు చేసుకోండి.",
+    "level": "Central"
+  },
+  {
+    "id": "ayushman_bharat",
+    "name": "Ayushman Bharat PM-JAY (Health Insurance)",
+    "name_hi": "आयुष्मान भारत - प्रधानमंत्री जन आरोग्य योजना",
+    "name_te": "ఆయుష్మాన్ భారత్ హెల్త్ కార్డు (ఉచిత చికిత్స)",
+    "name_ta": "ஆயுஷ்மான் பாரத் இலவச மருத்துவக் காப்பீடு",
+    "category": "Healthcare",
+    "category_hi": "स्वास्थ्य एवं चिकित्सा",
+    "category_te": "వైద్యం & ఆరోగ్యం",
+    "category_ta": "மருத்துவம்",
+    "target_group": ["health", "hospital", "medical", "treatment", "illness", "disease", "bpl", "poor", "medicine"],
+    "benefit": "Free cashless health treatment coverage up to ₹5,00,000 per family per year across 28,000+ empaneled hospitals.",
+    "benefit_hi": "प्रति परिवार प्रति वर्ष ₹5,00,000 तक का मुफ्त कैशलेस इलाज 28,000 से अधिक अस्पतालों में।",
+    "benefit_te": "ప్రతి కుటుంబానికి ఏడాదికి ₹5,00,000 వరకు ఉచిత నగదు రహిత ఆసుపత్రి చికిత్స.",
+    "benefit_ta": "குடும்பத்திற்கு ஆண்டுக்கு ₹5,00,000 வரை இலவச மருத்துவ சிகிச்சை.",
+    "benefit_amount": 500000,
+    "eligibility": [
+      "Families listed under SECC database or holding active BPL / Priority Ration Cards.",
+      "Rural households with kutcha houses or daily wage workers.",
+      "No restriction on family size, age, or gender."
+    ],
+    "eligibility_hi": [
+      "बीपीएल राशन कार्ड धारक और गरीब परिवार।",
+      "कच्चे मकान में रहने वाले या दिहाड़ी मजदूर परिवार।",
+      "परिवार के सदस्यों की संख्या या उम्र की कोई सीमा नहीं।"
+    ],
+    "eligibility_te": [
+      "తెల్ల రేషన్ కార్డు (BPL) కలిగిన నిరుపేద కుటుంబాలు అర్హులు.",
+      "గ్రామీణ ప్రాంతాలలో రోజువారీ కూలీలు మరియు ఆర్థికంగా వెనుకబడిన వారు.",
+      "కుటుంబ సభ్యుల సంఖ్యపై ఎటువంటి పరిమితి లేదు."
+    ],
+    "required_documents": [
+      "Aadhaar Card",
+      "BPL / White Ration Card",
+      "Mobile Number"
+    ],
+    "required_documents_hi": [
+      "आधार कार्ड",
+      "बीपीएल / राशन कार्ड",
+      "मोबाइल नंबर"
+    ],
+    "required_documents_te": [
+      "ఆధార్ కార్డు",
+      "తెల్ల రేషన్ కార్డు",
+      "మొబైల్ నంబర్"
+    ],
+    "how_to_apply": "Visit any government hospital or empaneled private hospital with your Ration Card and Aadhaar to generate your free Ayushman Card.",
+    "how_to_apply_hi": "किसी भी सरकारी अस्पताल या सीएससी केंद्र में राशन कार्ड और आधार दिखाकर अपना कार्ड बनवाएं।",
+    "how_to_apply_te": "ఏదైనా ప్రభుత్వ ఆసుపత్రి లేదా నెట్‌వర్క్ ఆసుపత్రిలో రేషన్ కార్డు చూపి ఉచితంగా ఆయుష్మాన్ కార్డు పొందండి.",
+    "level": "Central"
+  },
+  {
+    "id": "pm_fasal_bima",
+    "name": "PM Fasal Bima Yojana (Crop Insurance)",
+    "name_hi": "प्रधानमंत्री फसल बीमा योजना (फसल नुकसान मुआवजा)",
+    "name_te": "పీఎం ఫసల్ బీమా యోజన (పంట నష్టపరిహారం)",
+    "name_ta": "பயிர் காப்பீட்டுத் திட்டம்",
+    "category": "Agriculture",
+    "category_hi": "कृषि बीमा",
+    "category_te": "వ్యవసాయ పంటల బీమా",
+    "category_ta": "வேளாண்மை",
+    "target_group": ["crop", "damage", "rain", "drought", "flood", "loss", "farmer", "paddy", "cotton"],
+    "benefit": "Financial compensation up to 100% of insured sum for crop loss caused by floods, rains, drought, or pests.",
+    "benefit_hi": "बारिश, बाढ़, सूखा या कीटों से फसल नष्ट होने पर 100% तक बीमा मुआवजा राशि।",
+    "benefit_te": "వర్షాలు, కరువు, వరదలు లేదా తెగుళ్ల వల్ల పంట నష్టపోతే బీమా పరిహారం లభిస్తుంది.",
+    "benefit_ta": "இயற்கை பேரிடரால் பயிர் சேதமடைந்தால் முழு இழப்பீடு.",
+    "benefit_amount": 25000,
+    "eligibility": [
+      "All farmers growing notified crops (paddy, cotton, groundnut, pulses, etc.).",
+      "Tenant and sharecropper farmers with sowing declaration are also eligible.",
+      "Must report crop damage within 72 hours of natural calamity."
+    ],
+    "eligibility_hi": [
+      "अधिसूचित फसलें (धान, कपास, दालें आदि) उगाने वाले सभी किसान।",
+      "किराएदार और बटाईदार किसान भी पात्र हैं।",
+      "प्राकृतिक आपदा के 72 घंटे के भीतर नुकसान की सूचना देना आवश्यक।"
+    ],
+    "eligibility_te": [
+      "నోటిఫై చేయబడిన పంటలు (వరి, పత్తి, వేరుశనగ మొదలైనవి) పండించే రైతులందరూ అర్హులు.",
+      "కౌలు రైతులు కూడా సాగు ధృవీకరణ పత్రంతో దరఖాస్తు చేసుకోవచ్చు.",
+      "పంట నష్టం జరిగిన 72 గంటల్లోగా అధికారులకు సమాచారం ఇవ్వాలి."
+    ],
+    "required_documents": [
+      "Land Ownership / Tenant Agreement",
+      "Sowing Certificate from VRO",
+      "Bank Passbook copy",
+      "Aadhaar Card"
+    ],
+    "required_documents_hi": [
+      "जमीन के दस्तावेज / बटाईदार प्रमाण",
+      "पटवारी से बुवाई प्रमाण पत्र",
+      "बैंक पासबुक कॉपी",
+      "आधार कार्ड"
+    ],
+    "required_documents_te": [
+      "పట్టాదారు పాస్ పుస్తకం / కౌలు ఒప్పందం",
+      "విలేజ్ రెవెన్యూ అధికారి సాగు ధృవీకరణ పత్రం",
+      "బ్యాంక్ పాస్‌బుక్",
+      "ఆధార్ కార్డు"
+    ],
+    "how_to_apply": "Notify bank or crop insurance agent within 72 hours of crop loss, or apply via the nearest CSC center.",
+    "how_to_apply_hi": "नुकसान के 72 घंटे के अंदर अपनी बैंक शाखा या सीएससी केंद्र में दावा दर्ज करें।",
+    "how_to_apply_te": "పంట నష్టం జరిగిన వెంటనే మీ బ్యాంక్ లేదా రైతు భరోసా కేంద్రంలో దరఖాస్తు సమర్పించండి.",
+    "level": "Central"
+  },
+  {
+    "id": "widow_pension",
+    "name": "Indira Gandhi National Widow Pension Scheme",
+    "name_hi": "इंदिरा गांधी राष्ट्रीय विधवा पेंशन योजना",
+    "name_te": "వితంతు పెన్షన్ పథకం",
+    "name_ta": "விதவை ஓய்வூதியத் திட்டம்",
+    "category": "Social Welfare",
+    "category_hi": "सामाजिक सुरक्षा",
+    "category_te": "సామాజిక భద్రత & పెన్షన్",
+    "category_ta": "சமூக நலம்",
+    "target_group": ["widow", "husband died", "widowed", "single mother", "destitute woman"],
+    "benefit": "Monthly pension of ₹1,000 to ₹3,000 transferred directly into bank account every month.",
+    "benefit_hi": "प्रति माह ₹1,000 से ₹3,000 की पेंशन सीधे बैंक खाते में हर महीने।",
+    "benefit_te": "నెలకు ₹1,000 నుండి ₹3,000 వరకు నేరుగా బ్యాంకు ఖాతాలో జమ అయ్యే పెన్షన్.",
+    "benefit_ta": "மாதந்தோறும் வங்கி கணக்கில் ₹1,000 முதல் ₹3,000 வரை ஓய்வూதியம்.",
+    "benefit_amount": 18000,
+    "eligibility": [
+      "Widows aged 40 to 79 years living below the poverty line (BPL).",
+      "Husband's official death certificate must be provided.",
+      "Applicant should not be receiving other government pensions."
+    ],
+    "eligibility_hi": [
+      "40 से 79 वर्ष की आयु की गरीबी रेखा (BPL) से नीचे रहने वाली विधवा महिलाएं।",
+      "पति का मृत्यु प्रमाण पत्र होना आवश्यक।",
+      "आवेदिका को कोई अन्य सरकारी पेंशन न मिल रही हो।"
+    ],
+    "eligibility_te": [
+      "దారిద్య్రరేఖకు దిగువన (BPL) ఉన్న 40 నుండి 79 సంవత్సరాల మధ్య వయస్సు గల వితంతువులు అర్హులు.",
+      "భర్త మరణ ధృవీకరణ పత్రం (Death Certificate) తప్పనిసరి.",
+      "ఇతర ప్రభుత్వ పెన్షన్లు పొందుతూ ఉండకూడదు."
+    ],
+    "required_documents": [
+      "Husband Death Certificate",
+      "Aadhaar Card",
+      "BPL Ration Card / Income Certificate",
+      "Bank Account Details"
+    ],
+    "required_documents_hi": [
+      "पति का मृत्यु प्रमाण पत्र",
+      "आधार कार्ड",
+      "बीपीएल राशन कार्ड / आय प्रमाण पत्र",
+      "बैंक खाता विवरण"
+    ],
+    "required_documents_te": [
+      "భర్త మరణ ధృవీకరణ పత్రం",
+      "ఆధార్ కార్డు",
+      "తెల్ల రేషన్ కార్డు / ఆదాయ ధృవీకరణ పత్రం",
+      "బ్యాంక్ ఖాతా వివరాలు"
+    ],
+    "how_to_apply": "Submit physical application form to local Gram Panchayat / Municipal office or Village Revenue Officer (VRO).",
+    "how_to_apply_hi": "ग्राम पंचायत सचिव या ब्लॉक विकास अधिकारी (BDO) के कार्यालय में फॉर्म जमा करें।",
+    "how_to_apply_te": "గ్రామ వార్డు సచివాలయంలో లేదా మండల పరిషత్ కార్యాలయంలో దరఖాస్తు సమర్పించండి.",
+    "level": "Central & State"
+  },
+  {
+    "id": "old_age_pension",
+    "name": "National Old Age Pension Scheme (IGNOAPS)",
+    "name_hi": "राष्ट्रीय वृद्धावस्था पेंशन योजना",
+    "name_te": "వృద్ధాప్య పెన్షన్ పథకం",
+    "name_ta": "முதியோர் ஓய்வூதியத் திட்டம்",
+    "category": "Social Welfare",
+    "category_hi": "सामाजिक सुरक्षा",
+    "category_te": "సామాజిక భద్రత & పెన్షన్",
+    "category_ta": "சமூக நலம்",
+    "target_group": ["elderly", "old age", "senior citizen", "grandmother", "grandfather", "above 60"],
+    "benefit": "Monthly pension of ₹1,000 to ₹3,250 transferred directly into bank account every month.",
+    "benefit_hi": "प्रति माह ₹1,000 से ₹3,250 की मासिक पेंशन सीधे बैंक खाते में।",
+    "benefit_te": "నెలకు ₹1,000 నుండి ₹3,250 వరకు నేరుగా బ్యాంకు ఖాతాలో లభించే వృద్ధాప్య పెన్షన్.",
+    "benefit_ta": "மாதந்தோறும் ₹1,000 முதல் ₹3,250 வரை முதியோர் ஓய்வூதியம்.",
+    "benefit_amount": 24000,
+    "eligibility": [
+      "Senior citizens aged 60 years or older.",
+      "Belonging to a Below Poverty Line (BPL) household.",
+      "Must have valid age proof and Aadhaar."
+    ],
+    "eligibility_hi": [
+      "60 वर्ष या उससे अधिक आयु के वरिष्ठ नागरिक।",
+      "गरीबी रेखा (BPL) से नीचे का परिवार।",
+      "उम्र का प्रमाण पत्र और आधार कार्ड आवश्यक।"
+    ],
+    "eligibility_te": [
+      "60 సంవత్సరాలు లేదా అంతకంటే ఎక్కువ వయస్సు ఉన్న వృద్ధులు అర్హులు.",
+      "దారిద్య్రరేఖకు దిగువన (BPL) ఉన్న నిరుపేద కుటుంబాలకు చెందినవారై ఉండాలి.",
+      "సరైన వయస్సు ధృవీకరణ మరియు ఆధార్ కార్డు ఉండాలి."
+    ],
+    "required_documents": [
+      "Age Proof / Aadhaar Card",
+      "BPL Ration Card",
+      "Bank Passbook linked to Aadhaar",
+      "Passport Photos"
+    ],
+    "required_documents_hi": [
+      "आयु प्रमाण पत्र / आधार कार्ड",
+      "बीपीएल राशन कार्ड",
+      "आधार लिंक बैंक पासबुक",
+      "पासपोर्ट साइज फोटो"
+    ],
+    "required_documents_te": [
+      "వయస్సు ధృవీకరణ పత్రం / ఆధార్ కార్డు",
+      "తెల్ల రేషన్ కార్డు",
+      "బ్యాంక్ పాస్‌బుక్",
+      "పాస్‌పోర్ట్ సైజు ఫోటోలు"
+    ],
+    "how_to_apply": "Apply through your Gram Panchayat secretary, Block Development Officer (BDO), or Ward Office.",
+    "how_to_apply_hi": "ग्राम पंचायत सचिव या वार्ड कार्यालय में आवेदन पत्र जमा करें।",
+    "how_to_apply_te": "మీ గ్రామ సచివాలయం లేదా మున్సిపల్ వార్డు కార్యాలయంలో ఆధార్ తో దరఖాస్తు చేయండి.",
+    "level": "Central & State"
+  },
+  {
+    "id": "pm_awas_yojana",
+    "name": "PM Awas Yojana - Gramin (Housing for Poor)",
+    "name_hi": "प्रधानमंत्री आवास योजना - ग्रामीण (पक्का घर निर्माण)",
+    "name_te": "పీఎం ఆవాస్ యోజన (పక్కా ఇళ్ల నిర్మాణం)",
+    "name_ta": "பிரதமர் வீடு கட்டும் திட்டம்",
+    "category": "Housing",
+    "category_hi": "आवास एवं मकान निर्माण",
+    "category_te": "గృహ నిర్మాణం",
+    "category_ta": "வீட்டு வசதி",
+    "target_group": ["house", "housing", "shelter", "kaccha house", "homeless", "hut", "construction"],
+    "benefit": "Financial grant of ₹1,20,000 to ₹1,30,000 in installments for constructing a permanent pucca house.",
+    "benefit_hi": "पक्का मकान बनाने के लिए ₹1,20,000 से ₹1,30,000 की सीधी आर्थिक सहायता।",
+    "benefit_te": "సొంతంగా పక్కా ఇల్లు నిర్మించుకోవడానికి ప్రభుత్వం నుండి ₹1,20,000 నుండి ₹1,30,000 వరకు ఉచిత నిధులు.",
+    "benefit_ta": "நிரந்தர வீடு கட்ட ₹1,20,000 முதல் ₹1,30,000 வரை நேரடி மானியம்.",
+    "benefit_amount": 120000,
+    "eligibility": [
+      "Homeless families or households living in kaccha houses with temporary roof/walls.",
+      "Name must be enlisted in SECC socio-economic caste census list.",
+      "No family member should own a permanent pucca house."
+    ],
+    "eligibility_hi": [
+      "बेघर परिवार या कच्चे मकान व झोपड़ी में रहने वाले लोग।",
+      "एसईसीसी (SECC) सूची में नाम होना चाहिए।",
+      "परिवार के किसी सदस्य के पास पक्का मकान नहीं होना चाहिए।"
+    ],
+    "eligibility_te": [
+      "ఇల్లు లేని నిరుపేదలు లేదా పూరి గుడిసెలు, మట్టి గోడల కచ్చా ఇళ్లలో నివసించేవారు అర్హులు.",
+      "గ్రామ సభ SECC అర్హుల జాబితాలో పేరు ఉండాలి.",
+      "కుటుంబంలో ఎవరికీ స్వంత పక్కా ఇల్లు ఉండకూడదు."
+    ],
+    "required_documents": [
+      "Aadhaar Card",
+      "MGNREGA Job Card Number",
+      "Bank Account Details",
+      "Land / House Site Patta"
+    ],
+    "required_documents_hi": [
+      "आधार कार्ड",
+      "मनरेगा जॉब कार्ड नंबर",
+      "बैंक खाता विवरण",
+      "मकान की जमीन का पट्टा"
+    ],
+    "required_documents_te": [
+      "ఆధార్ కార్డు",
+      "ఉపాధి హామీ జాబ్ కార్డు నంబర్",
+      "బ్యాంక్ ఖాతా వివరాలు",
+      "స్థలం పట్టా పత్రం"
+    ],
+    "how_to_apply": "Visit your Gram Panchayat secretary to verify your name in the PMAY beneficiary list.",
+    "how_to_apply_hi": "ग्राम पंचायत सचिव या ग्राम सभा से संपर्क कर आवास सूची में नाम सत्यापित कराएं।",
+    "how_to_apply_te": "గ్రామ సచివాలయం పంచాయతీ కార్యదర్శిని సంప్రదించి లబ్ధిదారుల జాబితాలో నమోదు చేసుకోండి.",
+    "level": "Central"
+  },
+  {
+    "id": "pm_vishwakarma",
+    "name": "PM Vishwakarma Scheme (Artisans & Craftsmen)",
+    "name_hi": "पीएम विश्वकर्मा योजना (कारीगर और शिल्पकार)",
+    "name_te": "పీఎం విశ్వకర్మ పథకం (చేతివృత్తుల వారు)",
+    "name_ta": "விஸ்வகர்மா திட்டம்",
+    "category": "Livelihood",
+    "category_hi": "आजीविका एवं स्वरोजगार",
+    "category_te": "చేతివృత్తులు & జీవనోపాధి",
+    "category_ta": "கைவினைஞர் நலம்",
+    "target_group": ["carpenter", "blacksmith", "tailor", "cobbler", "barber", "potter", "sculptor", "artisan", "mason", "craftsman"],
+    "benefit": "Free skill training, ₹15,000 toolkit voucher, and collateral-free enterprise loans up to ₹3,00,000 at 5% interest.",
+    "benefit_hi": "मुफ्त कौशल प्रशिक्षण, ₹15,000 का टूलकिट वाउचर और 5% ब्याज पर ₹3,00,000 तक का बिना गारंटी ऋण।",
+    "benefit_te": "ఉచిత నైపుణ్య శిక్షణ, ₹15,000 ఆధునిక పనిముట్ల వోచర్, మరియు 5% వడ్డీకే ₹3,00,000 వరకు పూచీకత్తు లేని రుణం.",
+    "benefit_ta": "இலவச பயிற்சி, ₹15,000 உபகரண உதவி, மற்றும் ₹3,00,000 வரை குறைந்த வட்டி தொழில் கடன்.",
+    "benefit_amount": 15000,
+    "eligibility": [
+      "Traditional artisans working in 18 designated family trades (Carpenters, Blacksmiths, Tailors, Masons, Potters, Cobblers, etc.).",
+      "Minimum age 18 years, actively engaged in the family trade.",
+      "Not availing other central credit schemes like PMEGP or Mudra in past 5 years."
+    ],
+    "eligibility_hi": [
+      "पारंपरिक 18 ट्रेड (बढ़ई, लोहार, दर्जी, राजमिस्त्री, कुम्हार, मोची आदि) में काम करने वाले कारीगर।",
+      "न्यूनतम आयु 18 वर्ष और काम में सक्रिय होना चाहिए।",
+      "पिछले 5 वर्षों में पीएमईजीपी या मुद्रा ऋण न लिया हो।"
+    ],
+    "eligibility_te": [
+      "18 రకాల సాంప్రదాయ వృత్తుల వారు (వడ్రంగి, కమ్మరి, దర్జీ, మేస్త్రీ, కుమ్మరి, మంగలి, చాకలి మొదలైనవారు) అర్హులు.",
+      "కనిష్ట వయస్సు 18 సంవత్సరాలు నిండి ఉండాలి.",
+      "చేతివృత్తిలో స్వయంగా పనిచేస్తున్నవారై ఉండాలి."
+    ],
+    "required_documents": [
+      "Aadhaar Card",
+      "Mobile number linked to Aadhaar",
+      "Bank Account Details",
+      "Ration Card"
+    ],
+    "required_documents_hi": [
+      "आधार कार्ड",
+      "आधार लिंक मोबाइल नंबर",
+      "बैंक खाता विवरण",
+      "राशन कार्ड"
+    ],
+    "required_documents_te": [
+      "ఆధార్ కార్డు",
+      "ఆధార్ లింక్ మొబైల్ నంబర్",
+      "బ్యాంక్ ఖాతా వివరాలు",
+      "రేషన్ కార్డు"
+    ],
+    "how_to_apply": "Visit any Common Service Centre (CSC) with your trade tools for biometric registration and skill verification.",
+    "how_to_apply_hi": "किसी भी सीएससी (CSC) केंद्र पर जाकर बायोमेट्रिक सत्यापन के साथ मुफ्त पंजीकरण कराएं।",
+    "how_to_apply_te": "ఏదైనా కామన్ సర్వీస్ సెంటర్ (CSC) లేదా గ్రామ సచివాలయానికి వెళ్లి బయోమెట్రిక్ ద్వారా నమోదు చేసుకోండి.",
+    "level": "Central"
+  },
+  {
+    "id": "post_matric_scholarship",
+    "name": "Post-Matric Scholarship for SC/ST/OBC Students",
+    "name_hi": "पोस्ट मैट्रिक छात्रवृत्ति योजना",
+    "name_te": "పోస్ట్ మెట్రిక్ స్కాలర్‌షిప్ పథకం",
+    "name_ta": "உயர்கல்வி உதவித்தொகை",
+    "category": "Education",
+    "category_hi": "शिक्षा एवं छात्रवृत्ति",
+    "category_te": "విద్య & ఉపకార వేతనాలు",
+    "category_ta": "கல்வி",
+    "target_group": ["student", "college", "school", "scholarship", "study", "fees", "degree", "education", "10th", "12th"],
+    "benefit": "100% reimbursement of tuition fees and monthly maintenance allowance (₹5,000 to ₹15,000/year).",
+    "benefit_hi": "100% कॉलेज फीस की प्रतिपूर्ति और ₹5,000 से ₹15,000 प्रति वर्ष का रखरखाव भत्ता।",
+    "benefit_te": "100% కాలేజీ ఫీజు రీయింబర్స్‌మెంట్ మరియు సంవత్సరానికి ₹5,000 నుండి ₹15,000 వరకు మెయింటెనెన్స్ అలవెన్స్.",
+    "benefit_ta": "முழு கல்விக் கட்டண தள்ளுபடி மற்றும் மாதாந்திர பராமரிப்பு உதவித்தொகை.",
+    "benefit_amount": 12000,
+    "eligibility": [
+      "Students studying in Intermediate, ITI, Diploma, Degree, Engineering, or PG courses.",
+      "Family annual income under ₹2.5 Lakhs (SC/ST) or under ₹1.5 Lakhs (OBC/EWS).",
+      "Regular attendance in a recognized educational institution."
+    ],
+    "eligibility_hi": [
+      "11वीं, 12वीं, आईटीआई, डिप्लोमा, डिग्री या पीजी कर रहे छात्र।",
+      "पारिवारिक वार्षिक आय ₹2.5 लाख से कम होनी चाहिए।",
+      "मान्यता प्राप्त संस्थान में नियमित उपस्थिति।"
+    ],
+    "eligibility_te": [
+      "ఇంటర్, ఐటీఐ, పాలిటెక్నిక్, డిగ్రీ, ఇంజనీరింగ్ లేదా పీజీ చదువుతున్న విద్యార్థులు అర్హులు.",
+      "కుటుంబ వార్షిక ఆదాయం ₹2.5 లక్షల లోపు ఉండాలి.",
+      "గుర్తింపు పొందిన కళాశాలలో విద్యార్థిగా చేరి ఉండాలి."
+    ],
+    "required_documents": [
+      "Caste Certificate (SC/ST/OBC)",
+      "Income Certificate",
+      "Previous Class Marksheet (10th/12th)",
+      "College Admission & Fee Receipt",
+      "Bank Passbook"
+    ],
+    "required_documents_hi": [
+      "जाति प्रमाण पत्र",
+      "आय प्रमाण पत्र",
+      "पिछली कक्षा की मार्कशीट",
+      "कॉलेज फीस रसीद",
+      "बैंक पासबुक"
+    ],
+    "required_documents_te": [
+      "కుల ధృవీకరణ పత్రం (Caste Certificate)",
+      "ఆదాయ ధృవీకరణ పత్రం (Income Certificate)",
+      "టెన్త్ / ఇంటర్ మార్కుల జాబితా",
+      "కాలేజీ అడ్మిషన్ రసీదు",
+      "బ్యాంక్ పాస్‌బుక్"
+    ],
+    "how_to_apply": "Apply online on National Scholarship Portal (scholarships.gov.in) or state portals (Jnanabhumi, SSP).",
+    "how_to_apply_hi": "राष्ट्रीय छात्रवृत्ति पोर्टल (scholarships.gov.in) या राज्य पोर्टल पर ऑनलाइन आवेदन करें।",
+    "how_to_apply_te": "రాష్ట్ర స్కాలర్‌షిప్ పోర్టల్ (జ్ఞానభూమి / ఈ-పాస్) లో లేదా scholarships.gov.in లో ఆన్‌లైన్ లో దరఖాస్తు చేయండి.",
+    "level": "Central & State"
+  },
+  {
+    "id": "pm_mudra_yojana",
+    "name": "PM Mudra Yojana (Micro Business Loans)",
+    "name_hi": "प्रधानमंत्री मुद्रा योजना (छोटा व्यापार ऋण)",
+    "name_te": "పీఎం ముద్ర రుణాలు (చిన్న వ్యాపారాలు)",
+    "name_ta": "முத்ரா சிறுதொழில் கடன் திட்டம்",
+    "category": "Business & Self-Employment",
+    "category_hi": "व्यापार एवं स्वरोजगार",
+    "category_te": "చిన్న వ్యాపారం & స్వయం ఉపాధి",
+    "category_ta": "தொழில் கடன்",
+    "target_group": ["business", "shop", "small store", "tea stall", "loan", "vendor", "retail", "self employed"],
+    "benefit": "Collateral-free business loans from ₹50,000 (Shishu) up to ₹10,00,000 (Tarun) for starting or expanding small businesses.",
+    "benefit_hi": "बिना किसी गारंटी के ₹50,000 से ₹10,00,000 तक का व्यापार ऋण नई दुकान या काम शुरू करने के लिए।",
+    "benefit_te": "ఎలాంటి తనఖా పూచీకత్తు లేకుండా ₹50,000 నుండి ₹10,00,000 వరకు చిన్న వ్యాపారాల కోసం బ్యాంకు రుణాలు.",
+    "benefit_ta": "பிணையமில்லா தொழில் கடன் ₹50,000 முதல் ₹10,00,000 வரை.",
+    "benefit_amount": 50000,
+    "eligibility": [
+      "Small business owners, shopkeepers, fruit/vegetable vendors, small artisans and self-employed individuals.",
+      "Non-farm enterprise or manufacturing/trading/services unit.",
+      "Clean credit record with no past loan defaults."
+    ],
+    "eligibility_hi": [
+      "छोटे व्यापारी, दुकानदार, फल-सब्जी विक्रेता और कारीगर।",
+      "गैर-कृषि व्यवसाय या सेवा क्षेत्र की इकाइयां।",
+      "बैंक का कोई पुराना डिफ़ॉल्ट नहीं होना चाहिए।"
+    ],
+    "eligibility_te": [
+      "చిరు వ్యాపారులు, కిరాణా దుకాణాలు, పండ్లు/కూరగాయల వ్యాపారులు, వర్క్‌షాప్ నిర్వాహకులు అర్హులు.",
+      "వ్యవసాయేతర చిన్న తరహా వ్యాపారాలకు వర్తిస్తుంది.",
+      "గతంలో ఎటువంటి బ్యాంకు డిఫాల్ట్ ఉండకూడదు."
+    ],
+    "required_documents": [
+      "Aadhaar / Voter ID",
+      "Business Address Proof / Shop registration",
+      "Bank Statement for last 6 months",
+      "Quotation of equipment to purchase"
+    ],
+    "required_documents_hi": [
+      "आधार कार्ड / वोटर आईडी",
+      "दुकान या व्यापार का पता प्रमाण",
+      "पिछले 6 महीने का बैंक स्टेटमेंट",
+      "सामग्री खरीद का कोटेशन"
+    ],
+    "required_documents_te": [
+      "ఆధార్ కార్డు / ఓటర్ ఐడీ",
+      "దుకాణం చిరునామా ధృవీకరణ / వ్యాపార రుజువు",
+      "గత 6 నెలల బ్యాంక్ ఖాతా స్టేట్‌మెంట్",
+      "కొనుగోలు చేయదలచిన పరికరాల కొటేషన్"
+    ],
+    "how_to_apply": "Approach any commercial bank, Regional Rural Bank (RRB), or apply online via udyamimitra.in.",
+    "how_to_apply_hi": "अपने नजदीकी सरकारी बैंक शाखा में संपर्क करें या udyamimitra.in पर आवेदन करें।",
+    "how_to_apply_te": "మీ సమీపంలోని ఏదైనా బ్యాంకు శాఖను సంప్రదించండి లేదా udyamimitra.in లో దరఖాస్తు చేసుకోండి.",
+    "level": "Central"
+  },
+  {
+    "id": "mgnrega",
+    "name": "MGNREGA (100 Days Guaranteed Wage Employment)",
+    "name_hi": "मनरेगा (100 दिन का गारंटीशुदा रोजगार)",
+    "name_te": "ఉపాధి హామీ పథకం (నరేగా - 100 రోజుల పని)",
+    "name_ta": "மகாத்மா காந்தி ஊரக வேலைவாய்ப்புத் திட்டம்",
+    "category": "Livelihood",
+    "category_hi": "ग्रामीण रोजगार",
+    "category_te": "గ్రామీణ ఉపాధి",
+    "category_ta": "ஊரக வேலைவாய்ப்பு",
+    "target_group": ["unemployed", "daily wage", "labor", "worker", "jobless", "rural labor", "work"],
+    "benefit": "Guaranteed 100 days of manual wage employment per household per year at statutory daily wage (₹250–₹375/day).",
+    "benefit_hi": "हर ग्रामीण परिवार को प्रति वर्ष 100 दिनों के अकुशल काम की गारंटी व सीधे बैंक में दैनिक मजदूरी।",
+    "benefit_te": "ప్రతి గ్రామీణ కుటుంబానికి ఏడాదికి 100 రోజుల పాటు ప్రభుత్వం ఇచ్చే గ్యారెంటీ ఉపాధి పని మరియు కూలీ సొమ్ము.",
+    "benefit_ta": "ஆண்டுக்கு 100 நாட்கள் அரசு வேலைவாய்ப்பு மற்றும் நேரடி ஊதியம்.",
+    "benefit_amount": 30000,
+    "eligibility": [
+      "Adult members of rural households willing to do unskilled manual work.",
+      "Must reside in the local Gram Panchayat area.",
+      "Must hold a valid MGNREGA Job Card."
+    ],
+    "eligibility_hi": [
+      "ग्रामीण परिवार के 18 वर्ष से अधिक उम्र के सदस्य जो काम करने के इच्छुक हों।",
+      "स्थानीय ग्राम पंचायत का निवासी होना आवश्यक।",
+      "मनरेगा जॉब कार्ड होना चाहिए।"
+    ],
+    "eligibility_te": [
+      "గ్రామీణ ప్రాంతాలలో నివసిస్తూ శారీరక శ్రమ చేసేందుకు సిద్ధంగా ఉన్న వయోజనులు అర్హులు.",
+      "సంబంధిత గ్రామ పంచాయతీ పరిధిలో నివాసముండాలి.",
+      "ఉపాధి హామీ జాబ్ కార్డు కలిగి ఉండాలి."
+    ],
+    "required_documents": [
+      "Aadhaar Card",
+      "Ration Card",
+      "Bank Account Details",
+      "Photographs for Job Card"
+    ],
+    "required_documents_hi": [
+      "आधार कार्ड",
+      "राशन कार्ड",
+      "बैंक पासबुक",
+      "पासपोर्ट साइज फोटो"
+    ],
+    "required_documents_te": [
+      "ఆధార్ కార్డు",
+      "రేషన్ కార్డు",
+      "బ్యాంక్ ఖాతా వివరాలు",
+      "జాబ్ కార్డు కోసం పాస్‌పోర్ట్ ఫోటోలు"
+    ],
+    "how_to_apply": "Submit an oral or written request for Job Card at your local Gram Panchayat office.",
+    "how_to_apply_hi": "अपनी ग्राम पंचायत में जाकर जॉब कार्ड बनवाने के लिए आवेदन दें।",
+    "how_to_apply_te": "మీ గ్రామ పంచాయతీ కార్యాలయంలో లేదా ఫీల్డ్ అసిస్టెంట్‌ని సంప్రదించి జాబ్ కార్డు పొందండి.",
+    "level": "Central"
+  },
+  {
+    "id": "ujjwala_yojana",
+    "name": "PM Ujjwala Yojana (Free LPG Gas Connection)",
+    "name_hi": "प्रधानमंत्री उज्ज्वला योजना (मुफ्त गैस कनेक्शन)",
+    "name_te": "పీఎం ఉజ్వల యోజన (ఉచిత గ్యాస్ కనెక్షన్)",
+    "name_ta": "உஜ்வாலா இலவச கேஸ் திட்டம்",
+    "category": "Women & Welfare",
+    "category_hi": "महिला कल्याण एवं ईंधन",
+    "category_te": "మహిళా సంక్షేమం & గ్యాస్",
+    "category_ta": "மகளிர் நலம்",
+    "target_group": ["gas", "cylinder", "stove", "cooking", "women", "fuel", "smoke", "firewood"],
+    "benefit": "Free LPG connection with security deposit waived, first cylinder filled free, and free gas stove for poor women.",
+    "benefit_hi": "मुफ्त गैस कनेक्शन, पहला भरा हुआ गैस सिलेंडर और चूल्हा पूरी तरह निशुल्क।",
+    "benefit_te": "నిరుపేద మహిళలకు ఉచిత గ్యాస్ సిలిండర్ కనెక్షన్, మొదటి రీఫిల్ సిలిండర్ మరియు ఉచిత గ్యాస్ పొయ్యి.",
+    "benefit_ta": "இலவச எரிவாயு இணைப்பு, இலவச சிலிண்டர் மற்றும் அடுப்பு.",
+    "benefit_amount": 3200,
+    "eligibility": [
+      "Adult woman belonging to a poor / BPL household.",
+      "No existing LPG connection in the applicant's household.",
+      "Must have an active bank account and Aadhaar."
+    ],
+    "eligibility_hi": [
+      "गरीब या बीपीएल परिवार की 18 वर्ष से अधिक आयु की महिला।",
+      "घर में पहले से कोई गैस कनेक्शन नहीं होना चाहिए।",
+      "आधार लिंक बैंक खाता आवश्यक।"
+    ],
+    "eligibility_te": [
+      "నిరుపేద లేదా BPL కుటుంబానికి చెందిన 18 ఏళ్లు పైబడిన మహిళలు అర్హులు.",
+      "ఇంట్లో ఎవరి పేరుపైనా ముందస్తు గ్యాస్ కనెక్షన్ ఉండకూడదు.",
+      "ఆధార్ కార్డుతో లింక్ అయిన బ్యాంక్ ఖాతా తప్పనిసరి."
+    ],
+    "required_documents": [
+      "Aadhaar Card of Woman Applicant",
+      "BPL Ration Card showing family members",
+      "Aadhaar-Linked Bank Passbook"
+    ],
+    "required_documents_hi": [
+      "महिला आवेदक का आधार कार्ड",
+      "बीपीएल राशन कार्ड",
+      "बैंक पासबुक"
+    ],
+    "required_documents_te": [
+      "మహిళా దరఖాస్తుదారు ఆధార్ కార్డు",
+      "తెల్ల రేషన్ కార్డు (కుటుంబ సభ్యుల వివరాలతో)",
+      "బ్యాంక్ పాస్‌బుక్"
+    ],
+    "how_to_apply": "Submit filled form along with BPL ration card copy at any local LPG distributor (Indane, BharatGas, HP Gas).",
+    "how_to_apply_hi": "अपने नजदीकी गैस एजेंसी (इंडेन, भारत गैस, एचपी) में राशन कार्ड की कॉपी के साथ जमा करें।",
+    "how_to_apply_te": "మీ సమీపంలోని గ్యాస్ ఏజెన్సీ (ఇండేన్, భారత్ గ్యాస్, హెచ్‌పీ) కార్యాలయంలో రేషన్ కార్డుతో దరఖాస్తు చేయండి.",
+    "level": "Central"
+  },
+  {
+    "id": "sukanya_samriddhi",
+    "name": "Sukanya Samriddhi Yojana (Girl Child Savings)",
+    "name_hi": "सुकन्या समृद्धि योजना (बेटी बचाओ, बेटी पढ़ाओ)",
+    "name_te": "సుకున్య సమృద్ధి యోజన (ఆడపిల్లల భవిష్యత్తు)",
+    "name_ta": "செல்வ மகள் சேமிப்புத் திட்டம்",
+    "category": "Women & Child",
+    "category_hi": "बालिका कल्याण एवं शिक्षा",
+    "category_te": "బాలికల సంక్షేమం & పొదుపు",
+    "category_ta": "பெண் குழந்தை நலம்",
+    "target_group": ["daughter", "girl", "child", "female", "baby", "daughter education", "marriage"],
+    "benefit": "High government-guaranteed interest (8.2% per year) with tax exemption for girl's higher education and marriage.",
+    "benefit_hi": "उच्च सरकारी ब्याज दर (8.2% वार्षिक) और बेटी की उच्च शिक्षा व शादी के लिए सुरक्षित बचत।",
+    "benefit_te": "ప్రభుత్వ హామీతో కూడిన 8.2% అధిక వడ్డీ మరియు ఆడపిల్ల ఉన్నత చదువు, పెళ్లి కోసం పన్ను లేని పొదుపు నిధి.",
+    "benefit_ta": "பெண் குழந்தைகளின் கல்வி மற்றும் திருமணத்திற்காக 8.2% உயர் வட்டியுடன் சேமிப்பு திட்டம்.",
+    "benefit_amount": 50000,
+    "eligibility": [
+      "Parents or legal guardians of a girl child from birth up to 10 years of age.",
+      "Maximum of two girl children per family.",
+      "Account can be opened with a minimum deposit of ₹250."
+    ],
+    "eligibility_hi": [
+      "जन्म से 10 वर्ष तक की बालिका के माता-पिता या अभिभावक।",
+      "एक परिवार में अधिकतम दो बेटियों के लिए खाता खोला जा सकता है।",
+      "न्यूनतम ₹250 से खाता शुरू किया जा सकता है।"
+    ],
+    "eligibility_te": [
+      "పుట్టినప్పటి నుండి 10 సంవత్సరాల లోపు వయస్సు ఉన్న ఆడపిల్లల తల్లిదండ్రులు అర్హులు.",
+      "కుటుంబంలో గరిష్టంగా ఇద్దరు ఆడపిల్లల కోసం ఖాతా తెరవవచ్చు.",
+      "కనీసం ₹250 డిపాజిట్‌తో పోస్టాఫీసు లేదా బ్యాంకులో ఖాతా ప్రారంభించవచ్చు."
+    ],
+    "required_documents": [
+      "Birth Certificate of Girl Child",
+      "Identity Proof of Parent/Guardian (Aadhaar)",
+      "Address Proof",
+      "Passport Photos"
+    ],
+    "required_documents_hi": [
+      "बालिका का जन्म प्रमाण पत्र",
+      "माता/पिता का आधार कार्ड",
+      "निवास प्रमाण पत्र",
+      "पासपोर्ट फोटो"
+    ],
+    "required_documents_te": [
+      "ఆడపిల్ల జనన ధృవీకరణ పత్రం (Birth Certificate)",
+      "తల్లిదండ్రుల ఆధార్ కార్డు",
+      "చిరునామా ధృవీకరణ పత్రం",
+      "పాస్‌పోర్ట్ సైజు ఫోటోలు"
+    ],
+    "how_to_apply": "Open account with minimum ₹250 deposit at any local Post Office or authorized commercial bank branch.",
+    "how_to_apply_hi": "अपने नजदीकी डाकघर (Post Office) या अधिकृत बैंक शाखा में ₹250 जमा कर खाता खुलवाएं।",
+    "how_to_apply_te": "మీ సమీపంలోని పోస్టాఫీసు లేదా జాతీయ బ్యాంకు శాఖలో ₹250 డిపాజిట్ చేసి ఖాతా తెరవండి.",
+    "level": "Central"
+  }
+]
